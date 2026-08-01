@@ -3,7 +3,7 @@ import axios from 'axios';
 const API_URL = '/api';
 
 const api = axios.create({
-  baseURL: API_URL,
+  baseURL: 'https://hospital-management-alpha-five.vercel.app/api',
   headers: {
     'Content-Type': 'application/json'
   }
